@@ -4,4 +4,11 @@ __pycache__/
 *.pyc
 .env
 models/*.pkl
+# ...но нужные для демо (Streamlit Cloud) модели трекаем — они крохотные (~20KB)
+!models/scaler.pkl
+!models/kmeans_model.pkl
+!models/outlier_bounds.pkl
+!models/churn_model.pkl
+!models/churn_scaler.pkl
+!models/churn_meta.pkl
 catboost_info/

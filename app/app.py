@@ -15,7 +15,7 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(BASE, '..', 'src'))
 from scoring import score_customers  # noqa: E402
 
-EXAMPLE_PATH = os.path.join(BASE, '..', 'data', 'processed', 'transactions_clean.csv')
+EXAMPLE_PATH = os.path.join(BASE, 'sample_transactions.csv')
 
 st.set_page_config(page_title='Отток и сегменты', layout='wide')
 st.title('🛒 Сегментация клиентов и предсказание оттока')
